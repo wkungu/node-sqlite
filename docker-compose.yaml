@@ -1,0 +1,9 @@
+services:
+  myapp:
+    container_name: myapp
+    build: .
+    ports:
+      - "8000:8000"
+    restart: always
+    volumes:
+      - /Users/joy/work/myapp:/app
